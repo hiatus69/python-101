@@ -49,7 +49,7 @@ print(f"Updated nested list after clearing: {nested_list}")
 print("----------------------------------------")
 
 #sort method
-numbers_to_sort = [5, 2, 9, 1, 5, 6,]
+numbers_to_sort = [5, 2, 9, 1, 5, 6.1,]
 numbers_to_sort.sort()
 str_to_sort = ["banana", "apple", "cherry", "date"]
 str_to_sort.sort()

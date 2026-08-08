@@ -5,7 +5,7 @@ matrix = [
 ]
 
 for row in matrix:
-    print(row)
+    print(row,2)
     for element in row:
         print(element, end="")
     print()
