@@ -58,6 +58,8 @@ def add_item(inventory,item_name,quantity_sold,price):
             quantity_sold = int(input("จำนวนสินค้า: "))
             price = float(input("ราคา: "))
             return inventory.append([item_name,quantity_sold, price])
+        else:
+            return
         
 update_inventory(inventory,item_name,quantity_sold)
 calculate_total_value(inventory)
