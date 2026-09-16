@@ -1,6 +1,6 @@
 class NegativeNumberError(Exception):
     def __init__(self, value):
-        self,value = value
+        self.value = value
         super().__init__(f"invalid input: {value} is a negaive numner")
 
 def check_positive_number(num):
