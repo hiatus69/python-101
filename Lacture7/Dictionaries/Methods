@@ -1,0 +1,18 @@
+student = {"name":'Alice','age':25,'Major':'Computer Science'}
+
+print(student.keys())
+print(student.values())
+print(student.items())
+
+print(student.get('name'))
+print(student.get('grade','Not found'))
+
+Major = student.pop("Major")
+print(Major)
+print(student)
+
+last_item = student.popitem()
+print(last_item)
+print(student)
+student.clear()
+print(student)
