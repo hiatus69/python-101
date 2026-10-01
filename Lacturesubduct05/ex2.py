@@ -1,4 +1,4 @@
-def generate_primes(num):
+def generate_primes(start,end):
     primes = []
     for n in range(2, num + 1):
         is_prime = True
@@ -10,7 +10,7 @@ def generate_primes(num):
             primes.append(n)
     return primes
 
-print(generate_primes(10))
+print(generate_primes(1))
 print(generate_primes(20))
 print(generate_primes(1))
 print(generate_primes(2))

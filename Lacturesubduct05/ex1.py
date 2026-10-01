@@ -10,6 +10,6 @@ def is_armstrong(number):
     sum_of_powers = sum(int(digit) ** num_digits for digit in str_number)
     return sum_of_powers == number
 
-print(is_armstrong(153))  # True
+print(is_armstrong(153))  # True 3*15*9
 print(is_armstrong(9474))  # True
 print(is_armstrong(123))  # False

@@ -1,6 +1,6 @@
 num_days = int(input("Enter the number of days: "))
-#write
-with open("sales.txt", "w") as sales_file:
+#write w เขียนทับ a เขียนดพิ่ม
+with open("sales.txt", "a") as sales_file:
     for count in range(1, num_days + 1):
 
         sales = float(input(f'Enter the sales for day #{count}: '))
