@@ -1,0 +1,18 @@
+class Animal:
+    def speak(self):
+        raise NotImplementedError("Subclasses must implement this method")
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+def make_animal_speak(animal):
+    print(animal.speak())
+
+dog = Dog()
+cat = Cat()
+# animal = Animal()  # This would raise a NotImplementedError
+make_animal_speak(dog)  # Output: Woof!
+make_animal_speak(cat)  # Output: Meow!
